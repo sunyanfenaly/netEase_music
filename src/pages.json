@@ -1,0 +1,142 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "网易云首页",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/playmusic/playmusic",
+			"style": {
+				"navigationBarTitleText": "网易云播放页",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "网易云发现",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/find/toplist",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/TopListDetail",
+			"style": {
+				"navigationBarTitleText": "排行榜详情",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/roam/roam",
+			"style": {
+				"navigationBarTitleText": "网易云漫游",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "网易云搜索",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/dynamic/dynamic",
+			"style": {
+				"navigationBarTitleText": "网易云动态",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "网易云登录",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "网易云我的",
+				"navigationBarTextStyle": "white"
+			}
+		},
+        {
+            "path": "pages/index/recommendlist",
+            "style": {
+                "navigationBarTitleText": "每日推荐",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/index/recommendlistdetail",
+            "style": {
+                "navigationBarTitleText": "歌单详情",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/player/player",
+            "style": {
+                "navigationBarTitleText": "播放器",
+                "navigationBarTextStyle": "white"
+            }
+        },
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "网易云音乐",
+        "navigationBarBackgroundColor": "#d43c33",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar":{
+        "color": "#777",
+        "selectedColor": "#ff0000",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "推荐",
+                "iconPath": "static/biaoqing.png",
+                "selectedIconPath": "static/biaoqing_1.png"
+            },
+            {
+                "pagePath": "pages/find/find",
+                "text": "发现",
+                "iconPath": "static/faxian.png",
+                "selectedIconPath": "static/faxian_1.png"
+            },
+            {
+                "pagePath": "pages/roam/roam",
+                "text": "漫游",
+                "iconPath": "static/logo.png",
+                "selectedIconPath": "static/logo_1.png"
+            },
+            {
+                "pagePath": "pages/dynamic/dynamic",
+                "text": "动态",
+                "iconPath": "static/music.png",
+                "selectedIconPath": "static/music_1.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "static/wode.png",
+                "selectedIconPath": "static/wode_1.png"
+            }
+        ]
+    }
+}
